@@ -1,0 +1,313 @@
+body {
+    display: flex;
+    background-color: #E9E5CF;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 672px) {
+
+    nav div ul a {
+        width: 100%;
+    }
+
+    main section div h3 {
+        font-size: 15px;
+    }
+
+    main section div img[src="Fotos/5556Charcuteria-Javier-1024x471-1.jpg"] {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+header[id="inicio"] {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+div[class="cabeceraprincipal"] {
+    display: flex;
+    width: 80vw;
+    height: 15vh;
+    font-size: 90px;
+    font-style: italic;
+    font-family: serif;
+    padding: 30px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+body header div img[class="imagenprincipal"] {
+    width: 650px;
+    height: 650px;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+    margin: 2px;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+}
+
+nav div ul {
+    display: flex;
+    border: 5px outset rgb(110, 75, 50);
+    background-image: url(Fotos/Fondo.jpg);
+    border-radius: 15%;
+    padding: 5px;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    font-size: 21px;
+
+}
+
+nav div ul a {
+
+    background-color: beige;
+    border: 2px outset rgb(110, 75, 50);
+    border-radius: 25%;
+    padding: 5px;
+    font-style: italic;
+    color: black;
+
+}
+
+nav div ul a:hover {
+    background-color: rgb(122, 117, 117);
+}
+
+nav div ul a:hover {
+    color: white;
+}
+
+main {
+    display: flex;
+    width: 99vw;
+    flex-direction: column;
+    gap: 25px;
+}
+
+main section[class="introduccion"] {
+    display: flex;
+    width: 95vw;
+    height: 70vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+main section div[class="presentacion"] {
+    display: flex;
+    width: 25vw;
+    height: 50vh;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px;
+    word-spacing: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+main section div[class="imagentienda"] {
+    display: flex;
+    width: 65vw;
+    height: 50vh;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1px;
+    border: 5px outset rgb(110, 75, 50);
+}
+
+main section div[class="store"] {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+}
+
+
+#embutidos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#quesos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.secciondeproductos {
+    background-image: url(Fotos/Fondo.jpg);
+    border: 5px outset rgb(110, 75, 50);
+    display: flex;
+    font-family: serif;
+    font-style: italic;
+    font-size: 30px;
+    justify-content: center;
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+.productos {
+    display: block;
+    margin-left: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.productos::first-letter {
+    color: rgb(110, 75, 50);
+    font-size: 55px;
+    font-style: italic;
+}
+
+main section div[class="fila1"] {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 350px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+main section div {
+    display: flex;
+    width: 100vw;
+}
+
+main section div div {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0px;
+}
+
+#especial {
+    color: red;
+    text-decoration: underline;
+}
+
+main section div div p[class="producto1"] {
+    display: flex;
+    width: 350px;
+    background-color: #c7c5b7;
+    border: 2px outset #c7c5b7;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+main section div div p[class="precio"] {
+    display: flex;
+    border: 1px solid black;
+    width: 140px;
+    font-style: italic;
+    font-size: 15px;
+    justify-content: center;
+}
+
+main section div div img {
+    display: flex;
+    height: 280px;
+    width: 350px;
+}
+
+footer {
+    display: flex;
+    background-color: #E9E5CF;
+    width: 100vw;
+    overflow: hidden;
+    flex-direction: column;
+    font-family: serif;
+    font-style: italic;
+
+}
+
+body footer section {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body footer section div {
+    justify-content: center;
+    align-items: center;
+}
+
+body footer section div form {
+    width: 50vw;
+    margin: 25px;
+    padding: 5px;
+    background-color: #c7c5b7;
+    border: 2px outset #c7c5b7;
+
+}
+
+#contactanos {
+    background-image: url(Fotos/Fondo.jpg);
+    border: 5px outset rgb(110, 75, 50);
+    width: 100vw;
+    font-size: 30px;
+    text-align: center;
+    color: black
+}
+
+body footer section div form div label {
+    display: flex;
+    width: 50vw;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+body footer section div form div label input {
+    display: flex;
+    width: 150px;
+    margin-left: 15px;
+}
+
+body footer section div form div label textarea {
+    display: flex;
+    width: 150px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+footer section div[class="iconos"] {
+    font-size: 50px;
+    margin: 25px;
+    padding: 5px;
+}
